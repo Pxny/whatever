@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kinda Gay Bro</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are| Welcome</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div id="branding">
-        <h1>Gay Bro</h1>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <p>
-            </p>
-          </li>
-        </ul>
-      </nav
-    </div>
- </body>
- </html>
+            <!--Top NavBar-->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>You Are</h1>
+            </div>
+            <!--Navigation Links-->
+            <nav>
+                <ul>
+                    <li>
+                        <a class="current">Home</a>
+                    </li>
+                    <li>
+                        <a>Us</a>
+                    </li>
+                    <li>
+                        <a>Chocolate</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+            <!--Reveal Image-->
+    <section id="main-img-container">
+        <div class="img-container">
+            <img id="Image" src="https://webdevtrick.com/wp-content/uploads/1.jpg" alt="horizon">
+            <div id="image-cover" onclick="reveal()">
+                <p>Reveal Utter Perfection</p>
+            </div>
+            <div id="overlay"></div>
+        </div>
+    </section>
+            <!--Footer-->
+    <section id="section-2">
+        <h2>Reeee! Display!</h2>
+    </section>
+            <!--Script Area-->
+    <script>
+        function reveal(){
+            document.getElementById("image-cover").style="animation:iCover 2s;animation-fill-mode:forwards;";
+            document.getElementById("Image").style="animation:pic 2s;animation-fill-mode:forwards;";
+            document.getElementById("overlay").style="animation:overlay 2s;animation-fill-mode:forwards;";
+        }
+    </script>
+</body>
+</html>

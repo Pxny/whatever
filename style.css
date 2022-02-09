@@ -13,6 +13,8 @@ body{
     font-size:1.2vw;
 }
 
+header li, #image-cover p{cursor:pointer;}
+
 /* NavBar */
 header{
     color:#ffffff;
@@ -67,13 +69,12 @@ section#main-img-container{
     position:relative;
     width:30vw;
     padding:14.5vw;
-    border: .0625em solid;
     margin:auto;
 }
 
 .img-container {
     position:absolute;
-    top:10%;
+    top:20vh;
     left:0;
     right:0;
     bottom:0;
@@ -157,15 +158,17 @@ section#main-img-container{
     }
 }
 
-/* Section 2 */
+/* The Footer */
 #section-2{
-    display:block;
+
     position:fixed;
     bottom:0;
-    background:#000;
-    color:#fff;
     width:100%;
     max-height:5em;
+    text-align:center;
+    background:#000;
+    color:#fff;
+    font-size:.4vw;
 }
 
 @keyframes infShadow {
